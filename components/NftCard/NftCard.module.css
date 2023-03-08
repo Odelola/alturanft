@@ -1,0 +1,80 @@
+.nftCard{
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: var(--primary-box-shadow);
+    transition: transform .3s ease-in-out;
+    -webkit-transition: transform .3s ease-in-out;
+    -moz-transition: transform .3s ease-in-out;
+    -ms-transition: transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out;
+}
+.nftCard:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.nftCardImage{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.nftCardImage_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    -webkit-border-radius: inherit;
+    -moz-border-radius: inherit;
+    -ms-border-radius: inherit;
+    -o-border-radius: inherit;
+}
+.nftCardDetails{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    padding: 1em;
+}
+.nftCardDetails_text{
+      display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+}
+.nftCardDetails_text h1{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.nftCardDetails_priceContainer{
+    align-self: flex-end;
+    background: rgba(42, 39, 201, 0.1);
+    padding: 20px 14px;
+    height: 20px;
+      display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 40px;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.nftCardDetails_priceConatinerText{
+    font-size: 12px;
+    letter-spacing: .2px;
+    color: var(--purple-color);
+}

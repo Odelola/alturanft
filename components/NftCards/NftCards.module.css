@@ -1,0 +1,11 @@
+#nftCards{
+    width: 100%;
+    /* margin: 50px 0; */
+}
+.nftCardsInner{
+    margin: 0 auto;
+    max-width: var(--site-max-width);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}

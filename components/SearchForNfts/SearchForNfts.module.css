@@ -1,0 +1,92 @@
+#nftSearchContainer{
+    max-width: 900px;
+    width: 100%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
+}
+.nftSearchContainerInner{
+    width: 100%;
+      display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.nftSearchContainerText h3{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 5vw;
+}
+.nftSearchContainerForm{
+    width: 100%;
+}
+.nftSearchContainerForm_inputText{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: 10px;
+    padding: 0px 30px 0px 0;
+    box-shadow: var(--primary-box-shadow);
+    background: var(--text-white);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.nftSearchContainerForm_inputText svg{
+    cursor: pointer;
+}
+.nftSearchContainerForm_input{
+    width: 90%;
+    outline: none;
+    border: none;
+    align-items: stretch;
+    background: transparent;
+    padding: 29px 0px 29px 30px;
+    color: var(--text-color);
+    font-family: var(--primary-font);
+}
+.nftSearchContainerForm_input::placeholder{
+    color: var(--placeholder-text);
+}
+.nftSearchContainerForm_inputText > div{
+    width: 35px;
+    height: 35px;
+    background: var(--button-gradient);
+    box-shadow: var(--primary-box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.nftSearchContainerForm_inputText  svg{
+    width: 20px;
+}
+.nftSearchContainerForm_submit{
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+@media (max-height: 500px){
+    .nftSearchContainerText h3{
+        font-size: 2.5vw;
+    }
+}

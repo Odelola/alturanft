@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&family=Zilla+Slab:wght@600&display=swap');
+/* GENERAL STYLING STARTS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+p{
+  color: var(--text-color);
+}
+h1, h2, h3{
+  color: var(--heading-color);
+}
+p,  h1, h2, h3{
+  font-family: var(--primary-font);
+}
+html, body{
+  height: 100vh;
+  background: var(--bg-color);
+}
+/* GENERAL STYLING ENDS */
+/* CSS VARIABLES STARTS */
+:root{
+  --bg-color: #FAF8FA;
+  --text-color: #7780A1;
+  --text-white: #FFFFFF;
+  --placeholder-text: #BBC0D0;
+  --heading-color: #060714;
+  --purple-color: #2A27C9; 
+  --button-gradient: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+  --primary-box-shadow: 0px 25px 75px rgba(6, 7, 20, 0.1);
+  --button-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+  --site-max-width: 1300px;
+  --primary-font: 'Sora', sans-serif;
+  --secondary-font:  'Zilla Slab', serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root{
+    --bg-color: #060714;
+    --text-white: #0E1028;
+    --placeholder-text: #BBC0D0;
+    --heading-color: #FFFFFF;
+  }
+}
+/* CSS VARIABLES ENDS */
+#nprogress .bar{
+  background: var(--heading-color);
+}

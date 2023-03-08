@@ -1,0 +1,17 @@
+.main{
+    height: 100vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--site-max-width);
+    font-family: var(--primary-font);
+    position: relative;
+    margin: 0 auto;
+}
+@media (max-height: 500px){
+    .main{
+        justify-content: flex-end;
+    }
+}
